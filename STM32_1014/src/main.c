@@ -229,6 +229,7 @@ void System_Init(void)
 void KhoiTao(void)
 {
 	System_KhoiTaoCacBien();
+	FLASH_Writepage(0,0,1);
 	//MC60_PWROn();
 	//MC60_GPS_Init(9600);
 	//GSM_Init();

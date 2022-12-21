@@ -65,7 +65,7 @@ uint8_t Config_Process(void)
 	static uint32_t Add=0;
 	char Address[10],buf[2048],D[5],NoP[14],Number[1],IP[10];						//	Nop : Number of Photo (1,2,3)
 	int xSec,xMin,xHour,xDay,i=0,j=0,Count=0;
-	uint8_t Command[14];
+	uint8_t Command[14],Data[30];
 	uint16_t c;
 	uint32_t AddtoRead;
 	
@@ -195,16 +195,38 @@ uint8_t Config_Process(void)
 	}
 	if(strstr((char*)Config.RxBuffer,"Create"))
 	{
-		File_structure file;
-		file.xCreate=Create;
+		Create("Dung.nv");
+		Delay_ms(5);	
+		Create("Nv.Dung");
 	}
 	if(strstr((char*)Config.RxBuffer,"Open"))
 	{
-		File_structure file;
-		///file.Open("Dung.nv");
+		
+		uint8_t  Data1[]=("HaNoi");
+		File_structure File;
+		File=Init();
+		File.xCreate("Dung.nv");
+		File.xWrite(Data1,50,5);
+		Delay_ms(2);
+		File.xRead(50,Data,30);
+		Sendstring1((char *)Data,5);
+	}
+		
+		if(strstr((char*)Config.RxBuffer,"Listfile"))
+	{
+		uint8_t i=0;
+		for(i=0;i<30;++i)
+		{
+			FLASH_ReadBuffer8(Add,Data,30);
+			if(Data[0]!=0xFF)
+			{
+				Sendstring((char *)Data);
+				Sendstring("\r");
+			}
+			Add+=30;
+		}
 		
 	}
-	return 1;
 }
 /**************************************************************************************
 * Function Name  	: hex_code

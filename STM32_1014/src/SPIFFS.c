@@ -72,8 +72,15 @@ void Convert8to16(uint8_t * Data8,uint16_t* Data16, uint8_t length)
 		Data16[i]=(uint16_t )(Data8[i*2]|Data8[i*2+1]<<8);
 	}
 }
-//sig[0]=(uint32_t )(buf[1]<<24|buf[2]<<16|buf[3]<<8|buf[4]);
-
+void Convert16to8(uint8_t * Data8,uint16_t* Data16,uint8_t length)
+{
+	uint16_t i;
+	for(i=0;i<length;++i)
+	{
+		Data8[(i*2)]=Data16[i];
+		Data8[(i*2)+1]=Data16[i]>>8;
+	}
+}
 void Convert32to8(uint8_t * Data8,uint32_t* Data32,uint8_t length)
 {
 	uint16_t i;
@@ -88,9 +95,8 @@ void Convert32to8(uint8_t * Data8,uint32_t* Data32,uint8_t length)
 
 /*******************************************************************************/
 
-uint32_t check_signature(void)
+uint32_t check_signature(uint32_t Addr)
 {
-	
 	uint32_t sig[2],*p;
 	uint8_t Data[8];
 	uint8_t buf[8],xbuf[8],*q;
@@ -106,8 +112,7 @@ uint32_t check_signature(void)
 		sig[1] = (uint32_t)(((DEFAULT_STRINGS_SIZE/4) << 16)|DEFAULT_MAXFILES);
 		Convert32to8(buf,sig,2);
 		FLASH_WriteBuffer(buf,0, 8);
-		WaitWriteInProcess();
-		Delay_ms(10);
+		Delay_ms(1);
 		FLASH_ReadBuffer8(0,Data, 8);
 		//Send1(Data,8);
 		Convert8to32((uint8_t *)Data,sig,2);
@@ -180,68 +185,43 @@ static uint32_t find_first_unallocated_file_index(uint32_t maxfiles)
  * Parameters 		:
  * Description		: Khoi tao cac bien dung trong he thong
 *******************************************************************************/
-
- bool Create(const char * filename,uint32_t length, uint32_t align)
+ bool Create(const char * filename)
 {
+	uint8_t Count[2],i,Add=0,len,xbuff[4];
+	uint16_t maxfile,index,buff[2];
+	uint16_t stradd,address;
+	Sendstring("\rCreating !\r");
 	
-	uint32_t maxfile, stringsize, stradd, address, len;
-	uint32_t index,buff[3],a;
-	uint8_t xbuff[12];
-	char buf[50];
+	maxfile =1024;
 	
-	Sendstring("\rCreate !\r");
-	maxfile= check_signature();
-	//maxfile=18F60258
-	if(!maxfile)	return false;
-	stringsize=(maxfile&0xFFFF0000)>>14;
-	
-	maxfile &= 0xFFFF;
+	for(i=0;i<30;i++)
+	{
+		FLASH_ReadBuffer8(Add,Count,2);
+		if(Count[0]== 0xFF)
+		{
+				break;
+		}
+		else
+		Add+=30;
+	}
+	address=(i+1)*maxfile;
 	index= find_first_unallocated_file_index(maxfile);
-	
-	stradd=8+maxfile*12; // 7208
-	
-	if(index==0)
-	{
-		address=stradd+stringsize; //  32768
-	}
-	else
-	{
-//		buff[2]=0;
-//		FLASH_ReadBuffer(8+maxfile*2+(index-1)*10,(uint16_t *)buff,10);
-//		address=buff[0]+buff[1];
-//		stradd += buff[2]*4;
-//		stradd += string_lenght(stradd);
-//		stradd =(stradd+3)&0x0003FFFC;
-	}
-	if (align > 0) 
-	{
-		address += align - 1;
-		address /= align;
-		address *= align;
-			
-		length += align - 1;
-		length /= align;
-		length *= align;
-	}
-	else
-	{
-		address=(address+255) & 0xFFFFFF00; //128
-	}
-	
+	stradd= 24+index+maxfile*(i+1); // Dia chi bat dau viet
 	len=strlen(filename);
-	
 	//
-	FLASH_WriteBuffer((uint8_t *)filename,stradd,len+1); // 7208
-	buff[0]=address; //32768
-	buff[1]=length;	// 10
-	buff[2]=(stradd-(8+maxfile*12))/4; // 
-	Convert32to8(xbuff,buff,3);
-	Delay_ms(5);
-	FLASH_WriteBuffer(xbuff,8+maxfile*2+index*10,10);  // 1208
-	WaitWriteInProcess();
-	Delay_ms(5);
+	//Ghi vao  flash
 	buff[0]=  filename_hash(filename);
-	FLASH_WriteBuffer((uint8_t *)buff,8+index*2,2); // 8
+	buff[1]=address;
+	Convert16to8(xbuff,buff,2);
+	FLASH_WriteBuffer(xbuff,maxfile*(i+1),4);  // 1208
+	Delay_ms(5);
+	FLASH_WriteBuffer((uint8_t *)filename,4+maxfile*(i+1),len); // 8
+	// Write in table of contents
+	Delay_ms(5);
+	FLASH_WriteBuffer((uint8_t *)filename,30*i,len);
+	Delay_ms(5);
+	FLASH_WriteBuffer(xbuff,len+30*i,4);
+	Delay_ms(2);
 	Sendstring("Complete create !\r");
 }
 
@@ -250,7 +230,30 @@ static uint32_t find_first_unallocated_file_index(uint32_t maxfiles)
  * Function Name  	: System_KhoiTaoCacBien
  * Return         	: 
  * Parameters 		:
+ * Description		: Khai bao
+*******************************************************************************/
+File_structure Init()
+{
+	struct File_structure File={Create,FLASH_WriteBuffer,FLASH_ReadBuffer8,Open};
+	return File;
+}
+/*******************************************************************************
+ * Function Name  	: System_KhoiTaoCacBien
+ * Return         	: 
+ * Parameters 		:
+ * Description		: Khai bao
+*******************************************************************************/
+void Write(uint8_t * Buffer,uint16_t length)
+{
+	
+}
+/*******************************************************************************
+ * Function Name  	: System_KhoiTaoCacBien
+ * Return         	: 
+ * Parameters 		:
  * Description		: Khoi tao cac bien dung trong he thong
+
+
 *******************************************************************************/
 File_structure Open(const char * filename)
 {
@@ -261,7 +264,7 @@ File_structure Open(const char * filename)
 	File_structure File;
 	
 	Sendstring("\r Open!\r");
-	maxfile= check_signature();
+//	maxfile= check_signature();
 	if(!maxfile) return	File;
 	maxfile &= 0xFFFF;
 	hash= filename_hash(filename);
@@ -313,4 +316,3 @@ void Spiffs_erase(uint32_t address)
 {
 	
 }
-
