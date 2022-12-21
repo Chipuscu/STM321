@@ -1,0 +1,1327 @@
+Dependencies for Project 'GPS', Target 'GPS': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\src\main.c)(0x63A11ABE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\flash.h)(0x639FCBD0)
+I (.\inc\UART.h)(0x63A12180)
+I (.\inc\LED.h)(0x63506D8A)
+I (.\inc\TIM.h)(0x63506D8A)
+I (.\inc\InitSystem.h)(0x63506D8A)
+I (.\inc\RTC.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5EC78402)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (.\inc\GPS_Process.h)(0x63506D8A)
+I (.\inc\Data.h)(0x63506D8A)
+I (.\inc\MC60_GSM.h)(0x63506D8A)
+I (.\inc\MC60_GPS.h)(0x63506D8A)
+I (.\inc\GSM_GPRS.h)(0x63506D8A)
+I (.\inc\debug.h)(0x63506D8A)
+I (.\inc\GSM_Process.h)(0x63506D8A)
+I (.\inc\Camera.h)(0x63506D8A)
+F (.\src\InitSystem.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\initsystem.o --omf_browse .\objects\initsystem.crf --depend .\objects\initsystem.d)
+I (.\inc\flash.h)(0x639FCBD0)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\LED.h)(0x63506D8A)
+I (.\inc\UART.h)(0x63A12180)
+I (.\inc\InitSystem.h)(0x63506D8A)
+F (.\src\Interrup.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\interrup.o --omf_browse .\objects\interrup.crf --depend .\objects\interrup.d)
+I (.\inc\Interrup.h)(0x63506D8A)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\stm32f2xx_it.h)(0x63506D8A)
+I (.\inc\LED.h)(0x63506D8A)
+I (.\inc\flash.h)(0x639FCBD0)
+I (.\inc\Data.h)(0x63506D8A)
+I (.\inc\UART.h)(0x63A12180)
+I (.\inc\RTC_Time.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5EC78402)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\GPS_Process.h)(0x63506D8A)
+I (.\inc\RTC.h)(0x63506D8A)
+F (.\src\flash.c)(0x63A0F70C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (.\inc\flash.h)(0x639FCBD0)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\LED.h)(0x63506D8A)
+I (.\inc\UART.h)(0x63A12180)
+I (.\inc\InitSystem.h)(0x63506D8A)
+F (.\src\TIM.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\tim.o --omf_browse .\objects\tim.crf --depend .\objects\tim.d)
+I (.\inc\TIM.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\UART.h)(0x63A12180)
+I (.\inc\Structure_Data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\main.h)(0x63A0F4B8)
+F (.\src\UART.c)(0x63A1217A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\inc\UART.h)(0x63A12180)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\Structure_Data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\main.h)(0x63A0F4B8)
+I (.\inc\LED.h)(0x63506D8A)
+I (.\inc\flash.h)(0x639FCBD0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+F (.\src\RTC.c)(0x63A0AC2E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\stm32f2xx_it.h)(0x63506D8A)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\flash.h)(0x639FCBD0)
+I (.\inc\RTC.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5EC78402)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+F (.\src\Structure_Data.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\structure_data.o --omf_browse .\objects\structure_data.crf --depend .\objects\structure_data.d)
+I (.\inc\Structure_Data.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\main.h)(0x63A0F4B8)
+F (.\src\debug.c)(0x63A1FC7C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\debug.o --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
+I (.\inc\debug.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\Structure_Data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\GPS_Process.h)(0x63506D8A)
+I (.\inc\flash.h)(0x639FCBD0)
+I (.\inc\data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (.\inc\MC60_GSM.h)(0x63506D8A)
+I (.\inc\UART.h)(0x63A12180)
+I (.\inc\LED.h)(0x63506D8A)
+I (.\inc\SPIFFS.h)(0x63A1FC93)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+F (.\src\Data.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\data.o --omf_browse .\objects\data.crf --depend .\objects\data.d)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\LED.h)(0x63506D8A)
+I (.\inc\Data.h)(0x63506D8A)
+I (.\inc\flash.h)(0x639FCBD0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (.\inc\GPS_Process.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5EC78402)
+F (.\src\LED.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\inc\LED.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (.\src\Flash_internal.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\flash_internal.o --omf_browse .\objects\flash_internal.crf --depend .\objects\flash_internal.d)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\Flash_internal.h)(0x63506D8A)
+F (.\src\Camera.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\camera.o --omf_browse .\objects\camera.crf --depend .\objects\camera.d)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\Camera.h)(0x63506D8A)
+I (.\inc\GPS_Process.h)(0x63506D8A)
+I (.\inc\flash.h)(0x639FCBD0)
+I (.\inc\UART.h)(0x63A12180)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\debug.h)(0x63506D8A)
+F (.\src\SPIFFS.c)(0x63A1FC91)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\spiffs.o --omf_browse .\objects\spiffs.crf --depend .\objects\spiffs.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\SPIFFS.h)(0x63A1FC93)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (.\inc\flash.h)(0x639FCBD0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\UART.h)(0x63A12180)
+F (.\src\GPS_Process.c)(0x639FD190)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\gps_process.o --omf_browse .\objects\gps_process.crf --depend .\objects\gps_process.d)
+I (.\inc\GPS_Process.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\flash.h)(0x639FCBD0)
+I (.\inc\Structure_Data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\Data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (.\inc\LED.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC78414)
+I (.\inc\RTC.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5EC78402)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+F (.\src\MC60_GPS.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\mc60_gps.o --omf_browse .\objects\mc60_gps.crf --depend .\objects\mc60_gps.d)
+I (.\inc\GPS_Process.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\flash.h)(0x639FCBD0)
+I (.\inc\Structure_Data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\Data.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (.\inc\LED.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC78414)
+I (.\inc\RTC.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5EC78402)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC78406)
+I (.\inc\MC60_GPS.h)(0x63506D8A)
+F (.\src\GSM_GPRS.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\gsm_gprs.o --omf_browse .\objects\gsm_gprs.crf --depend .\objects\gsm_gprs.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\MC60_GSM.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (.\inc\LED.h)(0x63506D8A)
+I (.\inc\GSM_GPRS.h)(0x63506D8A)
+F (.\src\GSM_Process.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\gsm_process.o --omf_browse .\objects\gsm_process.crf --depend .\objects\gsm_process.d)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\GSM_Process.h)(0x63506D8A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\MC60_GSM.h)(0x63506D8A)
+F (.\src\MC60_GSM.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\mc60_gsm.o --omf_browse .\objects\mc60_gsm.crf --depend .\objects\mc60_gsm.d)
+I (.\inc\MC60_GSM.h)(0x63506D8A)
+I (.\inc\main.h)(0x63A0F4B8)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\STM32F2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (.\inc\Structure_data.h)(0x63506D8A)
+I (.\inc\flash.h)(0x639FCBD0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\GSM_GPRS.h)(0x63506D8A)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\misc.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_adc.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_adc.o --omf_browse .\objects\stm32f2xx_adc.crf --depend .\objects\stm32f2xx_adc.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_exti.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_exti.o --omf_browse .\objects\stm32f2xx_exti.crf --depend .\objects\stm32f2xx_exti.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_flash.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_flash.o --omf_browse .\objects\stm32f2xx_flash.crf --depend .\objects\stm32f2xx_flash.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_gpio.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_gpio.o --omf_browse .\objects\stm32f2xx_gpio.crf --depend .\objects\stm32f2xx_gpio.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_iwdg.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_iwdg.o --omf_browse .\objects\stm32f2xx_iwdg.crf --depend .\objects\stm32f2xx_iwdg.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_pwr.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_pwr.o --omf_browse .\objects\stm32f2xx_pwr.crf --depend .\objects\stm32f2xx_pwr.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_rcc.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_rcc.o --omf_browse .\objects\stm32f2xx_rcc.crf --depend .\objects\stm32f2xx_rcc.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_rtc.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_rtc.o --omf_browse .\objects\stm32f2xx_rtc.crf --depend .\objects\stm32f2xx_rtc.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_spi.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_spi.o --omf_browse .\objects\stm32f2xx_spi.crf --depend .\objects\stm32f2xx_spi.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_syscfg.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_syscfg.o --omf_browse .\objects\stm32f2xx_syscfg.crf --depend .\objects\stm32f2xx_syscfg.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_tim.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_tim.o --omf_browse .\objects\stm32f2xx_tim.crf --depend .\objects\stm32f2xx_tim.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f2xx_usart.c)(0x52F86C94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\stm32f2xx_usart.o --omf_browse .\objects\stm32f2xx_usart.crf --depend .\objects\stm32f2xx_usart.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
+F (RTE\Device\STM32F205VE\RTE_Device.h)(0x63506D8A)()
+F (RTE\Device\STM32F205VE\startup_stm32f2xx.s)(0x63506D8A)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32F2XX SETA 1" --pd "_RTE_ SETA 1" --pd "NO_CRP SETA 1"--list .\listings\startup_stm32f2xx.lst --xref -o .\objects\startup_stm32f2xx.o --depend .\objects\startup_stm32f2xx.d)
+F (RTE\Device\STM32F205VE\stm32f2xx_conf.h)(0x63506D8A)()
+F (RTE\Device\STM32F205VE\system_stm32f2xx.c)(0x63506D8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\inc -I .\inc\BGT -I .\inc\GPS -I .\inc\GSM -I .\src\Memories -I .\inc\MaHoa -I .\inc\Taxi -I .\inc\AmThanh-I.\RTE\Device\STM32F205VE-I.\RTE\_GPS-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include-IC:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F2XX -D_RTE_ -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000"-o .\objects\system_stm32f2xx.o --omf_browse .\objects\system_stm32f2xx.crf --depend .\objects\system_stm32f2xx.d)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\stm32f2xx.h)(0x52CCDBC6)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\Include\system_stm32f2xx.h)(0x52CCDBC6)
+I (.\inc\stm32f2xx_conf.h)(0x63506D8A)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_adc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_can.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_crc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_cryp.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dac.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dcmi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_dma.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_exti.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_flash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_fsmc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_hash.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_gpio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_i2c.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_iwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_pwr.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rcc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rng.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_rtc.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_sdio.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_spi.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_tim.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_usart.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f2xx_wwdg.h)(0x52F86C94)
+I (C:\Users\Nguyen_Dung\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52F86C94)
