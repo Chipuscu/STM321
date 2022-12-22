@@ -275,6 +275,7 @@ void Read(const char* filename,uint16_t length)
 				Number++;
 			}
 		}
+		Add+=30;
 	}
 	if(Copy==0)
 	{
