@@ -27,26 +27,49 @@ Project File Date:  12/19/2022
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'GPS'
-compiling UART.c...
-compiling debug.c...
-.\inc\SPIFFS.h(29): warning:  #1295-D: Deprecated declaration Init - give arg types
-  File_structure Init();
-.\inc\SPIFFS.h(40): warning:  #1-D: last line of file ends without a newline
+compiling SPIFFS.c...
+.\inc\SPIFFS.h(43): warning:  #1-D: last line of file ends without a newline
   #endif
-src\debug.c(230): warning:  #940-D: missing return statement at end of non-void function "Config_Process" 
+src\SPIFFS.c(40): warning:  #1134-D: literal treated as "long long"
+  	uint32_t hash= 2166136261;
+src\SPIFFS.c(100): warning:  #177-D: variable "p"  was declared but never referenced
+  	uint32_t sig[2],*p;
+src\SPIFFS.c(102): warning:  #177-D: variable "xbuf"  was declared but never referenced
+  	uint8_t buf[8],xbuf[8],*q;
+src\SPIFFS.c(102): warning:  #177-D: variable "q"  was declared but never referenced
+  	uint8_t buf[8],xbuf[8],*q;
+src\SPIFFS.c(188): warning:  #177-D: variable "buf"  was declared but never referenced
+  	char buf[50];
+src\SPIFFS.c(190): warning:  #177-D: variable "index"  was declared but never referenced
+  	uint16_t maxfile,index,buff[2];
+src\SPIFFS.c(191): warning:  #177-D: variable "stradd"  was declared but never referenced
+  	uint16_t stradd,address;
+src\SPIFFS.c(389): warning:  #940-D: missing return statement at end of non-void function "Open" 
+  }
+src\SPIFFS.c(399): warning:  #1-D: last line of file ends without a newline
+  }
+src\SPIFFS.c(162): warning:  #177-D: function "string_lenght"  was declared but never referenced
+   static uint32_t string_lenght(uint32_t addr)
+src\SPIFFS.c: 11 warnings, 0 errors
+compiling debug.c...
+.\inc\SPIFFS.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+src\debug.c(222): warning:  #940-D: missing return statement at end of non-void function "Config_Process" 
   }
 src\debug.c(66): warning:  #177-D: variable "D"  was declared but never referenced
-  	char Address[10],buf[2048],D[5],NoP[14],Number[1],IP[10];						//	Nop : Number of Photo (1,2,3)
+  	char Address[10],buf[2048],D[5],NoP[14],Number[1],IP[10],send[50];						//	Nop : Number of Photo (1,2,3)
+src\debug.c(66): warning:  #177-D: variable "send"  was declared but never referenced
+  	char Address[10],buf[2048],D[5],NoP[14],Number[1],IP[10],send[50];						//	Nop : Number of Photo (1,2,3)
 src\debug.c(67): warning:  #550-D: variable "Count"  was set but never used
   	int xSec,xMin,xHour,xDay,i=0,j=0,Count=0;
 src\debug.c(69): warning:  #177-D: variable "c"  was declared but never referenced
-  	uint16_t c;
+  	uint16_t c,xData[2];
 src\debug.c: 6 warnings, 0 errors
 linking...
-Program Size: Code=46808 RO-data=1648 RW-data=56 ZI-data=42136  
+Program Size: Code=47452 RO-data=2488 RW-data=56 ZI-data=42136  
 FromELF: creating hex file...
 After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin Objects\GRCGPSV6N.axf --output GRCGPSV6N.bin
-".\Objects\GRCGPSV6N.axf" - 0 Error(s), 6 Warning(s).
+".\Objects\GRCGPSV6N.axf" - 0 Error(s), 17 Warning(s).
 
 <h2>Software Packages used:</h2>
 

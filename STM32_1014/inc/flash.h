@@ -34,7 +34,6 @@ float Flash_Read_NUM (int StartSectorAddress);
 float Bytes2float(uint8_t * ftoa_bytes_temp);
 void FLASH_WriteBuffer(uint8_t* pBuffer, uint32_t WriteAddr, uint16_t Len);
 void WaitWriteInProcess(void);
-void HexToString(char *Buffer, uint16_t *cs, char Number);
 
 #define FLASH_Disable() GPIO_SetBits(GPIOC,GPIO_Pin_5)
 #define FLASH_Enable() GPIO_ResetBits(GPIOC,GPIO_Pin_5)

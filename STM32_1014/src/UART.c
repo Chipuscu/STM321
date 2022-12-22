@@ -280,9 +280,10 @@ void Send2(uint16_t Data[255],uint16_t Len)
 void Sendstring1(char *s,uint16_t Len)
 {	
 	char c;
-	while (Len-- )
+	while (Len--)
 	{
 		c=*s++;
+		if(c==(char )0xFF) return;
 		Sendbyte(c);
 	}
 }

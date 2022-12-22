@@ -131,25 +131,23 @@ uint32_t check_signature(uint32_t Addr)
  * Description		: Khoi tao cac bien dung trong he thong
 *******************************************************************************/
 
-static uint32_t find_first_unallocated_file_index(uint32_t maxfiles)
+static uint32_t find_first_unallocated_file_index(uint32_t Address,uint16_t maxfiles)
 {
-	uint8_t xhashtable[16];
-	uint16_t hashtable[8];
+	uint8_t hashtable[50];
 	uint32_t n,i,index=0;
 	do{
-			n=8;
+			n=50;
 			if(index+n>maxfiles)
 				n=maxfiles-index;
-			FLASH_ReadBuffer8(8+index*2,xhashtable,n*2);
-			Convert8to16(xhashtable,hashtable,n);
-			for(i=0;i<n;i++)
+			FLASH_ReadBuffer8(30+Address+index,hashtable,n);
+			for(i=0;i<50;i++)
 			{
-				if(hashtable[i]==0xFFFF)
+				if(hashtable[i]==0xFF)
 				{
 					return index+i;
 				}
 			}
-			index +=n;
+			index +=50;
 		}
 	while(index<maxfiles);
 	return 0xFFFFFFFF;
@@ -185,16 +183,28 @@ static uint32_t find_first_unallocated_file_index(uint32_t maxfiles)
  * Parameters 		:
  * Description		: Khoi tao cac bien dung trong he thong
 *******************************************************************************/
- bool Create(const char * filename)
+uint32_t Create(const char * filename)
 {
-	uint8_t Count[2],i,Add=0,len,xbuff[4];
+	char buf[50];
+	uint8_t Count[2],i,Add=0,len,xbuff[5];
 	uint16_t maxfile,index,buff[2];
 	uint16_t stradd,address;
 	Sendstring("\rCreating !\r");
 	
-	maxfile =1024;
-	
-	for(i=0;i<30;i++)
+	maxfile =MAXFILE;
+	xbuff[4]=1;
+	for(Add=0,i=0;i<30;i++)
+	{
+		FLASH_ReadBuffer8(Add,xbuff,4);
+		Convert8to16(xbuff,buff,2);
+		if(buff[0]==filename_hash(filename) )
+		{
+				xbuff[4]++;
+				Sendstring("This filename is exist!");
+		}
+		Add+=30;
+	}
+	for(Add=0,i=0;i<30;i++)
 	{
 		FLASH_ReadBuffer8(Add,Count,2);
 		if(Count[0]== 0xFF)
@@ -205,24 +215,25 @@ static uint32_t find_first_unallocated_file_index(uint32_t maxfiles)
 		Add+=30;
 	}
 	address=(i+1)*maxfile;
-	index= find_first_unallocated_file_index(maxfile);
-	stradd= 24+index+maxfile*(i+1); // Dia chi bat dau viet
+	//index= find_first_unallocated_file_index(maxfile);
+	//stradd= 24+index+maxfile*(i+1); // Dia chi bat dau viet
 	len=strlen(filename);
 	//
 	//Ghi vao  flash
 	buff[0]=  filename_hash(filename);
 	buff[1]=address;
 	Convert16to8(xbuff,buff,2);
-	FLASH_WriteBuffer(xbuff,maxfile*(i+1),4);  // 1208
+	FLASH_WriteBuffer(xbuff,maxfile*(i+1),5);  // 1208
 	Delay_ms(5);
-	FLASH_WriteBuffer((uint8_t *)filename,4+maxfile*(i+1),len); // 8
+	FLASH_WriteBuffer((uint8_t *)filename,5+maxfile*(i+1),len); // 8
 	// Write in table of contents
 	Delay_ms(5);
-	FLASH_WriteBuffer((uint8_t *)filename,30*i,len);
+	FLASH_WriteBuffer((uint8_t *)filename,30*i+5,len);
 	Delay_ms(5);
-	FLASH_WriteBuffer(xbuff,len+30*i,4);
+	FLASH_WriteBuffer(xbuff,30*i,5);
 	Delay_ms(2);
 	Sendstring("Complete create !\r");
+	return address;
 }
 
 
@@ -232,9 +243,10 @@ static uint32_t find_first_unallocated_file_index(uint32_t maxfiles)
  * Parameters 		:
  * Description		: Khai bao
 *******************************************************************************/
-File_structure Init()
+File_structure Init(const char* filename)
 {
-	struct File_structure File={Create,FLASH_WriteBuffer,FLASH_ReadBuffer8,Open};
+	struct File_structure File={Create,Write,Read,Open};
+	File.xCreate(filename);
 	return File;
 }
 /*******************************************************************************
@@ -243,8 +255,78 @@ File_structure Init()
  * Parameters 		:
  * Description		: Khai bao
 *******************************************************************************/
-void Write(uint8_t * Buffer,uint16_t length)
+void Read(const char* filename,uint16_t length)
 {
+	uint8_t i,Add,Data8[5],Copy=0,Number=1;
+	uint16_t Data16[2],Address,xData8[994];
+	for(Add=0,i=0;i<30;++i)
+	{
+		FLASH_ReadBuffer8(Add,Data8,5);
+		Convert8to16(Data8,Data16,2);
+		if(Data16[0]==filename_hash(filename))
+		{
+			if(Data8[4]>Copy)
+					Copy=Data8[4];
+			Address=Data16[1];
+			if(Data8[4]==Number)
+			{
+				FLASH_ReadBuffer(Address+30,xData8,length);
+				Send2((uint16_t *)xData8,length);
+				Number++;
+			}
+		}
+	}
+	if(Copy==0)
+	{
+		Sendstring("\rFile does nor exist!");
+		return;
+	}
+	
+}
+
+/*******************************************************************************
+ * Function Name  	: System_KhoiTaoCacBien
+ * Return         	: 
+ * Parameters 		:
+ * Description		: Khai bao
+*******************************************************************************/
+void Write(const char* filename,uint8_t * Buffer,uint16_t length)
+{
+	uint8_t i,Count[5],Copy=0;
+	uint16_t Add=0,Data16[2];
+	uint16_t Address,index,n,m;
+	Sendstring("Write !");
+	for(i=0;i<30;i++)
+	{
+		FLASH_ReadBuffer8(Add,Count,5);
+		Convert8to16(Count,Data16,2);
+		if(Data16[0]==filename_hash(filename))
+		{	
+			if(Count[4]>Copy)
+					Copy=Count[4];
+			Address=Data16[1];
+		}
+		else
+		Add+=30;
+	}
+	if(Copy==0)
+	{
+		Sendstring("\rFile does nor exist!");
+		return;
+	}
+	index=find_first_unallocated_file_index(Address,MAXFILE);
+		if(length+index>MAXFILE)
+		{
+			n=MAXFILE-index;
+			m=length-n;
+			FLASH_WriteBuffer(Buffer,30+Address+index,n);
+			Sendstring("Creating a new file!\r ");
+			Address=Create(filename);
+			FLASH_WriteBuffer(Buffer,30+Address,m);
+			
+		}
+		FLASH_WriteBuffer(Buffer,30+Address+index,length);
+		Delay_ms(2);
 	
 }
 /*******************************************************************************
@@ -288,7 +370,6 @@ File_structure Open(const char * filename)
 				stradd=8+maxfile*12+buff[2]*4;
 				if(filename_compare(filename,stradd))
 				{
-					
 					File.address=buff[0];
 					File.length=buff[1];
 					File.offset=0;

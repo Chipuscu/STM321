@@ -63,12 +63,12 @@ const uint16_t crctab16[] = {
 uint8_t Config_Process(void)
 {
 	static uint32_t Add=0;
-	char Address[10],buf[2048],D[5],NoP[14],Number[1],IP[10];						//	Nop : Number of Photo (1,2,3)
+	char Address[10],buf[2048],D[5],NoP[14],Number[1],IP[10],send[50];						//	Nop : Number of Photo (1,2,3)
 	int xSec,xMin,xHour,xDay,i=0,j=0,Count=0;
 	uint8_t Command[14],Data[30];
-	uint16_t c;
+	uint16_t c,xData[2];
 	uint32_t AddtoRead;
-	
+	File_structure File;
 	/**********************************************/
 	if(strstr((char*)Config.RxBuffer, "COM")!=NULL)
 	{
@@ -127,8 +127,6 @@ uint8_t Config_Process(void)
 		Sendstring(buf);
 
 	}
-
-	/**********************************************/
 	
 	/**********************************************/
 	if(strstr((char*)Config.RxBuffer,"READ"))
@@ -149,16 +147,7 @@ uint8_t Config_Process(void)
 	}	
 	
 	/**********************************************/
-	// if(strstr((char*)Config.RxBuffer,"TESTCHECKSUM"))
-	// {
-	// 	Count=1;
-	// 	TachDuLieu(Config.RxBuffer,D,'(',')');
-	// 	c=GetCrc16((const uint8_t *)D,8);
-	// 	sprintf(buf,"Data: %X\r",c);
-	// 	Sendstring(buf);
-	// 	memset(D,0,50);
-	// }
-	/**********************************************/
+
 	if(strstr((char*)Config.RxBuffer,"CAMIP"))
 	{
 		TachDuLieu(Config.RxBuffer,IP,'(',')');
@@ -195,37 +184,40 @@ uint8_t Config_Process(void)
 	}
 	if(strstr((char*)Config.RxBuffer,"Create"))
 	{
-		Create("Dung.nv");
-		Delay_ms(5);	
-		Create("Nv.Dung");
+		File=Init("HaNoi.Capital");
 	}
-	if(strstr((char*)Config.RxBuffer,"Open"))
+	if(strstr((char*)Config.RxBuffer,"HCM"))
 	{
-		
-		uint8_t  Data1[]=("HaNoi");
-		File_structure File;
-		File=Init();
-		File.xCreate("Dung.nv");
-		File.xWrite(Data1,50,5);
-		Delay_ms(2);
-		File.xRead(50,Data,30);
-		Sendstring1((char *)Data,5);
+		File=Init("HCM.city");
 	}
-		
-		if(strstr((char*)Config.RxBuffer,"Listfile"))
+	if(strstr((char*)Config.RxBuffer,"Write"))
+	{
+		uint8_t  Data1[]=("In Vietnam, there are many special gestures and customs. First of all, in terms of gestures, Vietnamese people greet each other by shaking hands. This is also a polite way of greeting that many people use. When meeting young people, they greet with a slight nod and when meeting elderly people, they often fold their arms and bow. When we meet friends, we often raise our hands. Vietnamese people often exchange business cards in the first meeting. When handing business cards to each other, they often use two hands to show respect for each other. In addition, Vietnamese people often talk about daily life, job, food or interest in small talk. They should avoid sensitive topics for small talk such as age, salary because it can make the others unpleasant. In short, we should keep and pass down our customs through the generations.");
+		File.xWrite("HaNoi.Capital",Data1,800);
+	}
+	if(strstr((char*)Config.RxBuffer,"Read"))
+	{
+		File.xRead("HaNoi.Capital",10);
+	}
+	if(strstr((char*)Config.RxBuffer,"Listfile"))
 	{
 		uint8_t i=0;
+		Add=0;
+		Sendstring("\r List_Files!\r");
+		
 		for(i=0;i<30;++i)
 		{
+			
 			FLASH_ReadBuffer8(Add,Data,30);
+			Convert8to16(Data,xData,2);
+			Delay_ms(10);
 			if(Data[0]!=0xFF)
 			{
-				Sendstring((char *)Data);
-				Sendstring("\r");
+				sprintf(buf,"%d.%d	%s	Address: %d\r",i,Data[4],&Data[5],xData[1]);
+				Sendstring(buf);
 			}
 			Add+=30;
 		}
-		
 	}
 }
 /**************************************************************************************
