@@ -21,17 +21,31 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
 Dialog DLL:      TCM.DLL V1.46.0.0
  
 <h2>Project:</h2>
-C:\Users\NVDUNG\OneDrive\Desktop\STM321-1223\STM321-main\STM321-main\STM32_1014\GPS.uvprojx
+C:\Users\NVDUNG\OneDrive\Desktop\STM321\STM321-1223\STM321-main\STM321-main\STM32_1014\GPS.uvprojx
 Project File Date:  12/22/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'GPS'
-compiling debug.c...
-.\inc\SPIFFS.h(43): warning:  #1-D: last line of file ends without a newline
+compiling SPIFFS.c...
+.\inc\SPIFFS.h(41): warning:  #1-D: last line of file ends without a newline
   #endif
-src\debug.c(200): error:  #165: too few arguments in function call
-  		File.xRead("HaNoi.Capital");
+src\SPIFFS.c(32): warning:  #1134-D: literal treated as "long long"
+  	uint32_t hash= 2166136261;
+src\SPIFFS.c(128): warning:  #177-D: variable "index"  was declared but never referenced
+  	uint16_t index,Data16[2];
+src\SPIFFS.c(129): warning:  #177-D: variable "stradd"  was declared but never referenced
+  	uint16_t stradd,address;
+src\SPIFFS.c(299): warning:  #1-D: last line of file ends without a newline
+  }
+src\SPIFFS.c(261): warning:  #177-D: variable "Data8"  was declared but never referenced
+  	uint8_t i,y,xfilename[1024],Data8[5],Copy=0;
+src\SPIFFS.c(262): warning:  #177-D: variable "Number"  was declared but never referenced
+  	uint16_t Number,Data16[2],Address;
+src\SPIFFS.c: 7 warnings, 0 errors
+compiling debug.c...
+.\inc\SPIFFS.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
 src\debug.c(226): warning:  #940-D: missing return statement at end of non-void function "Config_Process" 
   }
 src\debug.c(66): warning:  #177-D: variable "D"  was declared but never referenced
@@ -42,8 +56,12 @@ src\debug.c(67): warning:  #550-D: variable "Count"  was set but never used
   	int xSec,xMin,xHour,xDay,i=0,j=0,Count=0;
 src\debug.c(69): warning:  #177-D: variable "c"  was declared but never referenced
   	uint16_t c,xData[2];
-src\debug.c: 6 warnings, 1 error
-".\Objects\GRCGPSV6N.axf" - 1 Error(s), 6 Warning(s).
+src\debug.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=47276 RO-data=2488 RW-data=56 ZI-data=42136  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin Objects\GRCGPSV6N.axf --output GRCGPSV6N.bin
+".\Objects\GRCGPSV6N.axf" - 0 Error(s), 13 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -84,12 +102,12 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:4.3.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Include file:  Device\Include\stm32f2xx.h
-      Source file:   Device\Source\ARM\startup_stm32f2xx.s
       Source file:   Device\Source\ARM\STM32F2xx_OTP.s
       Source file:   Device\Source\system_stm32f2xx.c
+      Source file:   Device\Source\ARM\startup_stm32f2xx.s
       Include file:  RTE_Driver\Config\RTE_Device.h
       Source file:   Device\Source\ARM\STM32F2xx_OPT.s
+      Include file:  Device\Include\stm32f2xx.h
 
    * Component: Keil::Device:StdPeriph Drivers:ADC:1.1.0
       Include file:  Device\StdPeriph_Driver\inc\stm32f2xx_adc.h
@@ -100,12 +118,12 @@ Package Vendor: Keil
       Include file:  Device\StdPeriph_Driver\inc\stm32f2xx_exti.h
 
    * Component: Keil::Device:StdPeriph Drivers:Flash:1.1.0
-      Include file:  Device\StdPeriph_Driver\inc\stm32f2xx_flash.h
       Source file:   Device\StdPeriph_Driver\src\stm32f2xx_flash.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f2xx_flash.h
 
    * Component: Keil::Device:StdPeriph Drivers:Framework:1.1.1
-      Source file:   Device\StdPeriph_Driver\src\misc.c
       Source file:   Device\StdPeriph_Driver\templates\stm32f2xx_it.c
+      Source file:   Device\StdPeriph_Driver\src\misc.c
       Source file:   Device\StdPeriph_Driver\templates\stm32f2xx_conf.h
 
    * Component: Keil::Device:StdPeriph Drivers:GPIO:1.1.0
@@ -133,8 +151,8 @@ Package Vendor: Keil
       Source file:   Device\StdPeriph_Driver\src\stm32f2xx_spi.c
 
    * Component: Keil::Device:StdPeriph Drivers:SYSCFG:1.1.0
-      Source file:   Device\StdPeriph_Driver\src\stm32f2xx_syscfg.c
       Include file:  Device\StdPeriph_Driver\inc\stm32f2xx_syscfg.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f2xx_syscfg.c
 
    * Component: Keil::Device:StdPeriph Drivers:TIM:1.1.0
       Include file:  Device\StdPeriph_Driver\inc\stm32f2xx_tim.h
@@ -143,7 +161,6 @@ Package Vendor: Keil
    * Component: Keil::Device:StdPeriph Drivers:USART:1.1.0
       Include file:  Device\StdPeriph_Driver\inc\stm32f2xx_usart.h
       Source file:   Device\StdPeriph_Driver\src\stm32f2xx_usart.c
-Target not created.
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

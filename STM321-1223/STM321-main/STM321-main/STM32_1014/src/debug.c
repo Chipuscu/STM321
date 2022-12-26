@@ -201,23 +201,7 @@ uint8_t Config_Process(void)
 	}
 	if(strstr((char*)Config.RxBuffer,"Listfile"))
 	{
-		uint8_t i=0;
-		Add=0;
-		Sendstring("\r		 List_Files!\r");
-		
-		for(i=0;i<30;++i)
-		{
-			
-			FLASH_ReadBuffer8(Add,Data,30);
-			Convert8to16(Data,xData,2);
-			Delay_ms(10);
-			if(Data[0]!=0xFF)
-			{
-				sprintf(buf,"%d.%d	%s	Address: %d\r",i,Data[4],&Data[5],xData[1]);
-				Sendstring(buf);
-			}
-			Add+=30;
-		}
+		File.xListfile();
 	}
 	if(strstr((char*)Config.RxBuffer,"Erase"))
 	{
