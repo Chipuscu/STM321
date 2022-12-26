@@ -11,14 +11,14 @@
 //extern DataStructure BGT;
 extern SystemVariables		    	xSystem;
 extern GPS_Structure         		GPS_xData;
-extern GPSControlStruct       		GPS_Temp,GPSControl;
-extern CamStructure					Camera;
+extern GPSControlStruct       	GPS_Temp,GPSControl;
+extern CamStructure							Camera;
 
 /**************************************************************************************
 * Function Name  	: ReadStatusFlash
 * Return         	: None
 * Parameters 		: None
-* Description		: Read a byte from Flash
+* Description		: Read a byte from Flashs
 **************************************************************************************/
 uint16_t ReadStatusFlash(void)
 {		
@@ -39,7 +39,7 @@ uint16_t ReadStatusFlash(void)
 **************************************************************************************/
 void FLASH_Hardware_Init(void)
 {
-	/*Khai b�o cau truc*/
+	/*Khai bao cau truc*/
 	GPIO_InitTypeDef GPIOInitStructure;
 	SPI_InitTypeDef SPI_InitStructure;
 	NVIC_InitTypeDef NVIsC_InitStructure;
@@ -86,27 +86,10 @@ void FLASH_Hardware_Init(void)
 	//Reset
 	GPIOInitStructure.GPIO_Pin = GPIO_Pin_4;
 	GPIO_Init(GPIOC, &GPIOInitStructure);
-//	
-//	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
-//	NVIC_InitStructure.NVIC_IRQChannel=SPI1_IRQn;
-//	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority=0;
-//	NVIC_InitStructure.NVIC_IRQChannelSubPriority=1;
-//	NVIC_InitStructure.NVIC_IRQChannelCmd=ENABLE;
-//	NVIC_Init(&NVIC_InitStructure);
 
-
-//	SPI_I2S_DMACmd(SPI1,SPI_I2S_DMAReq_Rx,ENABLE);
-//	SPI_I2S_DMACmd(SPI1,SPI_I2S_DMAReq_Tx,ENABLE);
-
-//	DMA_InitTypeDef DMA_InitStructure;
-	
-//	DMA_InitStructure.DMA_PeripheralBaseAddr
-//	
-//	SPI_I2S_ITConfig(SPI1, SPI_I2S_IT_RXNE, ENABLE);
 		/*Disable Pin_CS Flash */
 	FLASH_Disable();
 	/*Enable SPI1*/
-//	SPI_Cmd(SPI1,ENABLE);
 	GPIO_SetBits(GPIOC, GPIO_Pin_5);
 
 }
@@ -255,26 +238,7 @@ void FLASH_ReadBuffer8(int Address, uint8_t *Buffer,uint16_t Len)
 	FLASH_Disable();
 }
 
-/*****************************************************************************************************/
-/*ham doc mot mang byte*/
-//void FLASH_ReadBuffer32(int Address, uint32_t *Buffer,uint16_t Len)
-//{
-//	uint32_t Count=Len*4;
-//	uint8_t *Buff;
-//	
-//	
-//	FLASH_Enable();
-//	SPI_Sendata(Readdata);
-//	SPI_Sendata((Address >> 16)&0xFF);
-//	SPI_Sendata((Address >> 8)&0xFF);
-//	SPI_Sendata(Address&0xFF);	while(Len--)
-//	{
-//		*Buff=SPI_Sendata(FLASH_SPI_DUMMY);
-//		Buff++;
-//	}
-//	FLASH_Disable();
-//	Buffer=(uint32_t*)Buff;
-//}
+
 
 /*****************************************************************************************************/
 void FLASH_ReadBuffer1(uint32_t Address,char *Buffer,uint16_t Len)

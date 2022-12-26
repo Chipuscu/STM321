@@ -27,41 +27,15 @@ Project File Date:  12/22/2022
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'GPS'
-compiling SPIFFS.c...
-.\inc\SPIFFS.h(41): warning:  #1-D: last line of file ends without a newline
-  #endif
-src\SPIFFS.c(32): warning:  #1134-D: literal treated as "long long"
-  	uint32_t hash= 2166136261;
-src\SPIFFS.c(128): warning:  #177-D: variable "index"  was declared but never referenced
-  	uint16_t index,Data16[2];
-src\SPIFFS.c(129): warning:  #177-D: variable "stradd"  was declared but never referenced
-  	uint16_t stradd,address;
-src\SPIFFS.c(299): warning:  #1-D: last line of file ends without a newline
-  }
-src\SPIFFS.c(261): warning:  #177-D: variable "Data8"  was declared but never referenced
-  	uint8_t i,y,xfilename[1024],Data8[5],Copy=0;
-src\SPIFFS.c(262): warning:  #177-D: variable "Number"  was declared but never referenced
-  	uint16_t Number,Data16[2],Address;
-src\SPIFFS.c: 7 warnings, 0 errors
-compiling debug.c...
-.\inc\SPIFFS.h(41): warning:  #1-D: last line of file ends without a newline
-  #endif
-src\debug.c(226): warning:  #940-D: missing return statement at end of non-void function "Config_Process" 
-  }
-src\debug.c(66): warning:  #177-D: variable "D"  was declared but never referenced
-  	char Address[10],buf[2048],D[5],NoP[14],Number[1],IP[10],send[50];						//	Nop : Number of Photo (1,2,3)
-src\debug.c(66): warning:  #177-D: variable "send"  was declared but never referenced
-  	char Address[10],buf[2048],D[5],NoP[14],Number[1],IP[10],send[50];						//	Nop : Number of Photo (1,2,3)
-src\debug.c(67): warning:  #550-D: variable "Count"  was set but never used
-  	int xSec,xMin,xHour,xDay,i=0,j=0,Count=0;
-src\debug.c(69): warning:  #177-D: variable "c"  was declared but never referenced
-  	uint16_t c,xData[2];
-src\debug.c: 6 warnings, 0 errors
+compiling flash.c...
+src\flash.c(45): warning:  #177-D: variable "NVIsC_InitStructure"  was declared but never referenced
+  	NVIC_InitTypeDef NVIsC_InitStructure;
+src\flash.c: 1 warning, 0 errors
 linking...
-Program Size: Code=47276 RO-data=2488 RW-data=56 ZI-data=42136  
+Program Size: Code=47252 RO-data=2488 RW-data=56 ZI-data=42136  
 FromELF: creating hex file...
 After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin Objects\GRCGPSV6N.axf --output GRCGPSV6N.bin
-".\Objects\GRCGPSV6N.axf" - 0 Error(s), 13 Warning(s).
+".\Objects\GRCGPSV6N.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
