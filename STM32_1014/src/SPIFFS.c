@@ -9,23 +9,22 @@
 
 
 /*******************************************************************************
- * Function Name  	: 
- * Return         	: 
- * Parameters 			:
- * Description			: 
+ * Function Name  	: Init
+ * Return         	: File_structure
+ * Parameters 			:	void
+ * Description			: Initialized File
 *******************************************************************************/
-File_structure Init()//const char* filename)
+File_structure Init()
 {
 	struct File_structure File={Create,Write,Read,Erase};
-	//File.xCreate(filename);
 	return File;
 }
 
 /*******************************************************************************
- * Function Name  	: 
+ * Function Name  	: filename_hash
  * Return         	: 
- * Parameters 			:
- * Description			: 
+ * Parameters 			: 
+ * Description			: CRC16
 *******************************************************************************/
  uint16_t filename_hash(const char *filename)
 {
@@ -40,10 +39,10 @@ File_structure Init()//const char* filename)
 	return hash;
 }
 /*******************************************************************************
- * Function Name  	: 
+ * Function Name  	: Convert
  * Return         	: 
  * Parameters 			:
- * Description			: 
+ * Description			: Convert the coefficients
 *******************************************************************************/
 
 void Convert8to16(uint8_t * Data8,uint16_t* Data16, uint8_t length)
@@ -87,10 +86,10 @@ void Convert32to8(uint8_t * Data8,uint32_t* Data32,uint8_t length)
 
 
 /*******************************************************************************
- * Function Name  	: 
+ * Function Name  	: find_first_unallocated_file_index
  * Return         	: 
  * Parameters 			:
- * Description			: 
+ * Description			: Find the smallest location unwritten
 *******************************************************************************/
 
 static uint32_t find_first_unallocated_file_index(uint32_t Address,uint16_t maxfiles)
@@ -116,10 +115,10 @@ static uint32_t find_first_unallocated_file_index(uint32_t Address,uint16_t maxf
 }
 
 /*******************************************************************************
- * Function Name  	: 
+ * Function Name  	: Create
  * Return         	: 
  * Parameters 			:
- * Description			: 
+ * Description			: Make a file by filename
 *******************************************************************************/
 uint32_t Create(const char * filename)
 {
@@ -132,8 +131,8 @@ uint32_t Create(const char * filename)
 	
 	Header.Number=1;
 	memset(Header.Filename,NULL,12);
-	// Check file's exist?
-	for(k=0;k<3;k++)
+	/* Check file's exist? */
+	for(k=0;k<10;k++)
 	{
 		for(i=0;i<(MAXFILE/HEADER_SIZE);i++)
 		{
@@ -147,8 +146,8 @@ uint32_t Create(const char * filename)
 		}
 	}
 	
-	// Find locattion empty
-	for(k=0;k<3;k++)
+	/* Find locattion empty */
+	for(k=0;k<10;k++)
 	{
 		for(i=0;i<(MAXFILE/HEADER_SIZE);i++)
 		{
@@ -157,11 +156,10 @@ uint32_t Create(const char * filename)
 			if(Count[0]== 0xFF&&Count[1]==0xFF)
 			break;
 		}
-		break;
 	}
 	Header.Address=(k*(MAXFILE/HEADER_SIZE)+i+10)*MAXFILE;
 	len=strlen(filename);
-	//Write in flash
+	/* Write in flash */
 	Header.hash_filename=  filename_hash(filename);
 	for(t=0;t<len;t++)
 	{
@@ -170,6 +168,7 @@ uint32_t Create(const char * filename)
 	p=(uint8_t *)&Header;
 	FLASH_WriteBuffer(p,HEADER_SIZE*(k*(MAXFILE/HEADER_SIZE)+i),20); 
 	WaitWriteInProcess();
+	/* Write in Listfile */
 	if(Header.Number>1)
 	{
 		Sendstring("This filename is exist!\r");
@@ -200,7 +199,7 @@ void Read(const char* filename)
 	uint32_t Address;
 	
 	REST:
-	for(k=0;k<3;k++)
+	for(k=0;k<10;k++)
 	{
 		for(i=0;i<(MAXFILE/HEADER_SIZE);++i)
 		{
@@ -227,10 +226,10 @@ void Read(const char* filename)
 	}
 }
 /*******************************************************************************
- * Function Name  	: 
+ * Function Name  	: Read_Address
  * Return         	: 
  * Parameters 			:
- * Description			: 
+ * Description			: Read data by address, amount of data, location in file
 *******************************************************************************/
 void Read_Address(const char* filename,uint8_t *data,uint32_t Location,uint32_t Length)
 {
@@ -238,10 +237,11 @@ void Read_Address(const char* filename,uint8_t *data,uint32_t Location,uint32_t 
 	uint16_t k,i,t,Data16[2],xData16[2],Number=1;
 	uint32_t Address,xLocated;
 	
+	/* Tính toán số hiệu, vị trí bắt đầu đọc*/
 	if(Location>DATA_SIZE)
 		{
-			Number=Location/(DATA_SIZE)+1; //ten so luong cua file
-			xLocated=Location%(DATA_SIZE); // vi tri trong data file
+			Number=Location/(DATA_SIZE)+1; //Tính số hiệu file
+			xLocated=Location%(DATA_SIZE); // Vị trí đọc trong dữ liệu
 		}
 	else
 	{
@@ -249,9 +249,11 @@ void Read_Address(const char* filename,uint8_t *data,uint32_t Location,uint32_t 
 		xLocated=Location;
 	}
 
-	for(k=0;k<3;k++)
+	
+	
+	for(k=0;k<10;k++)		// Có 10 Sector Listfile
 	{
-		for(i=0;i<(MAXFILE/HEADER_SIZE);++i)
+		for(i=0;i<(MAXFILE/HEADER_SIZE);++i)	// Quét mỗi sector Listfile
 		{
 			FLASH_ReadBuffer8((k*MAXFILE/HEADER_SIZE+i)*HEADER_SIZE,Data8,HEADER_SIZE8);
 			WaitWriteInProcess();
@@ -261,7 +263,7 @@ void Read_Address(const char* filename,uint8_t *data,uint32_t Location,uint32_t 
 			{
 				
 				Convert8to32(&Data8[4],&Address,1);
-				if(Length+xLocated<DATA_SIZE)
+				if(Length+xLocated<DATA_SIZE)		
 				{
 					FLASH_ReadBuffer8(Address+HEADER_SIZE8+xLocated,data,Length);
 					WaitWriteInProcess();
@@ -281,7 +283,7 @@ void Read_Address(const char* filename,uint8_t *data,uint32_t Location,uint32_t 
 						{
 							Convert8to32(&Data8[4],&Address,1);
 							FLASH_ReadBuffer8(Address+HEADER_SIZE8,&data[DATA_SIZE-xLocated],Length-(DATA_SIZE-xLocated));
-															return;
+							return;
 						}
 					}
 				}
@@ -304,8 +306,8 @@ void Write(const char* filename,uint8_t * Buffer,uint16_t length)
 	
 	Header.Number=0;
 	Sendstring("Write !\r");
-	/// Tim kiem vi tri lon nhat cua filename trong listfile
-	for(k=0;k<3;k++)
+	// Tìm kiếm vị trí lớn nhất trong listfile để viết
+	for(k=0;k<10;k++)
 	{
 		for(i=0;i<(MAXFILE/HEADER_SIZE);i++)
 		{
@@ -325,12 +327,12 @@ void Write(const char* filename,uint8_t * Buffer,uint16_t length)
 	}
 	
 	index=find_first_unallocated_file_index(Header.Address,MAXFILE);
-	if(length+index+HEADER_SIZE8>MAXFILE)
+	if(length+index+HEADER_SIZE8>MAXFILE)	// Nếu số lượng viết tràn Sector
 	{
 		n=MAXFILE-index-HEADER_SIZE8;
 		FLASH_WriteBuffer(Buffer,HEADER_SIZE8+Header.Address+index,n+1);
 		WaitWriteInProcess();
-		Header.Address=Create(filename);
+		Header.Address=Create(filename); // Tạo file mới
 		length-=n;
 		FLASH_WriteBuffer(&Buffer[n],HEADER_SIZE8+Header.Address,length);
 		WaitWriteInProcess();
@@ -340,7 +342,7 @@ void Write(const char* filename,uint8_t * Buffer,uint16_t length)
 		FLASH_WriteBuffer(Buffer,HEADER_SIZE8+Header.Address+index,length);
 	}
 	WaitWriteInProcess();
-Sendstring("Writen !\r");
+Sendstring("Written !\r");
 	
 }
 
@@ -352,18 +354,18 @@ Sendstring("Writen !\r");
 *******************************************************************************/
 void Erase(const char* filename)
 {
-	uint8_t y,xfilename[MAXFILE+4],Data8[7],Copy,t=0;
+	uint8_t y,xfilename[MAXFILE+4],Data8[7],Copy,k;
 	uint16_t i,Number,Data16[2];
 	uint32_t 	Address;
 	
 	
 	Sendstring("Erase!\r");
-	for(t=0;t<3;t++)
+	for(k=0;k<10;k++)
 	{
 		Copy=0;
-		FLASH_ReadBuffer8(t*MAXFILE,xfilename,MAXFILE+4);
+		FLASH_ReadBuffer8(k*MAXFILE,xfilename,MAXFILE+4);
 		WaitWriteInProcess();
-		/// Tim kiem vi tri, so luong cua filename trong listfile
+		// Tìm kiếm vị trí lớn nhất trong listfile để viết
 		for(i=0;i<(MAXFILE)/HEADER_SIZE;++i)
 		{
 			Convert8to16(&xfilename[i*HEADER_SIZE],Data16,2);
@@ -382,9 +384,9 @@ void Erase(const char* filename)
 		if(Copy>>0)
 		{
 			Sendstring("\rFile  exist!");
-			FLASH_Erase_Sector(t*MAXFILE);
+			FLASH_Erase_Sector(k*MAXFILE); // Erase Sector
 			WaitWriteInProcess();
-			FLASH_WriteBuffer(xfilename,t*MAXFILE,MAXFILE);
+			FLASH_WriteBuffer(xfilename,k*MAXFILE,MAXFILE); // Write again
 			WaitWriteInProcess();
 		}
 		else
@@ -406,7 +408,7 @@ void Listfile()
 		uint32_t Address;
 		Sendstring("\r		 		List_Files!\r");
 		
-		for(k=0;k<3;k++)
+		for(k=0;k<10;k++)
 		{
 			for(i=0;i<MAXFILE/HEADER_SIZE;++i)
 			{
@@ -439,7 +441,7 @@ void Search_File(const char* filename)
 		uint32_t Address;
 		Sendstring("\r		 		Search!\r");
 		
-		for(k=0;k<3;k++)
+		for(k=0;k<10;k++)
 		{
 			for(i=0;i<MAXFILE/HEADER_SIZE;++i)
 			{

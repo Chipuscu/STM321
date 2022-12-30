@@ -68,6 +68,7 @@ uint8_t Config_Process(void)
 	uint8_t Command[14],Data[4096];
 	uint16_t c,xData[2];
 	uint32_t AddtoRead;
+	
 	File_structure File;
 	File=Init();
 	
