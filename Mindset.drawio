@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T03:44:05.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="cPdelsg1ueX7ZslSh5gp" version="20.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-03T04:23:57.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="GZis9eB20_pUvUI93znf" version="20.7.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Create">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,8 +215,27 @@
         <mxCell id="WGpdo3In9f3BpbVlv1rT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.579;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AoKWMLMA_VahDCEQkvxq-32" target="AoKWMLMA_VahDCEQkvxq-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WGpdo3In9f3BpbVlv1rT-9" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WGpdo3In9f3BpbVlv1rT-8">
+          <mxGeometry x="-0.8405" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AoKWMLMA_VahDCEQkvxq-32" value="Information=filename,number?" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="222.5" y="1090" width="275" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B_QB2j8zXOlV7Us7cTdv" name="Write">
+    <mxGraphModel dx="229" dy="122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7QwCRD4NmAMqPHlz0Spg-1" value="Start:Write" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7QwCRD4NmAMqPHlz0Spg-2" value="Find biggest Number of file&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="290" width="185" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
